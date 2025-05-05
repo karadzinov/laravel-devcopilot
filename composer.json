@@ -1,23 +1,25 @@
 {
   "name": "martink/laravel-devcopilot",
-  "description": "Artisan CLI assistant powered by ChatGPT for Laravel projects.",
-  "type": "library",
+  "description": "Laravel package that integrates ChatGPT into your Artisan CLI",
+  "keywords": ["laravel", "chatgpt", "artisan", "gpt"],
   "license": "MIT",
+  "require": {
+    "php": "^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4",
+    "illuminate/support": "^12.0",
+    "openai/openai": "^1.0"
+  },
   "autoload": {
     "psr-4": {
-      "Martink\\DevCopilot\\": "src/"
+      "MartinK\\DevCopilot\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Martink\\DevCopilot\\DevCopilotServiceProvider"
+        "MartinK\\DevCopilot\\DevCopilotServiceProvider"
       ]
     }
   },
-  "require": {
-    "php": "^8.1",
-    "illuminate/support": "^10.0 || ^11.0",
-    "guzzlehttp/guzzle": "^7.0"
-  }
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }

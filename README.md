@@ -2,6 +2,12 @@
 
 **DevCopilot** is a Laravel package that integrates ChatGPT directly into your Artisan CLI, giving you an intelligent assistant for explaining code, generating ideas, and streamlining development tasks—all without leaving your terminal.
 
+
+[![Packagist Version](https://img.shields.io/packagist/v/martink/laravel-devcopilot.svg)](https://packagist.org/packages/martink/laravel-devcopilot)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/martink/laravel-devcopilot.svg)](https://packagist.org/packages/martink/laravel-devcopilot)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 ---
 
 ## 🚀 Features
